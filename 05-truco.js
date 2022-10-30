@@ -20,3 +20,16 @@ function solucao() {
     const cartas = ["Q", "J", "K", "A", "2", "3"];
     console.log(carta === "3" ? "Q" : cartas[cartas.indexOf(carta) + 1]);
 }
+
+/* solucao 3 */
+function solucao() {
+    const manilha = {
+        Q: "J",
+        J: "K",
+        K: "A",
+        A: "2",
+        2: "3",
+        3: "Q"
+    }
+    console.log(manilha[carta]);
+}
